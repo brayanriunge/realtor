@@ -11,6 +11,7 @@ export default function Navbar() {
   const flexStyles = "flex items-center justify-between ";
   const isAboveMediaScreens = useMediaQuery("(min-width: 1060px)");
   const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false);
+  const dropdownItems = [{ label: "Land Subdivision", link: "/subdivision" }];
 
   return (
     <nav>
