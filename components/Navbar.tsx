@@ -14,6 +14,9 @@ export default function Navbar() {
   const dropdownItems = [
     { label: "Land Subdivision", link: "/subdivision" },
     { label: "Title Processing", link: "/title" },
+    { label: "Land Buying and Selling", link: "/buying" },
+    { label: "Plot demarcation", link: "/demarcation" },
+    { label: "Topographical Survey", link: "/topographical" },
   ];
 
   return (
