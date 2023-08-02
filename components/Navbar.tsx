@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import Logo from "@/public/goldmark.jpg";
+import Dropdown from "./Dropdown";
 
 export default function Navbar() {
   const router = useRouter();
@@ -51,45 +52,11 @@ export default function Navbar() {
                           ? "text-primary-gray"
                           : ""
                       }`}>
-                      Land Subdivision
+                      About Us
                     </a>
                   </Link>
-                  <Link legacyBehavior href={"/title"}>
-                    <a
-                      className={`${
-                        router.pathname === "/title" ? "text-primary-gray" : ""
-                      }`}>
-                      Title Processing
-                    </a>
-                  </Link>
-                  <Link legacyBehavior href={"/buying"}>
-                    <a
-                      className={`${
-                        router.pathname === "/buying" ? "text-primary-gray" : ""
-                      }`}>
-                      Land Buying and Selling
-                    </a>
-                  </Link>
-                  <Link legacyBehavior href={"/demarcation"}>
-                    <a
-                      className={`${
-                        router.pathname === "/demarcation"
-                          ? "text-primary-gray"
-                          : ""
-                      }`}>
-                      Plot Demarcation
-                    </a>
-                  </Link>
-                  <Link legacyBehavior href={"/topographical"}>
-                    <a
-                      className={`${
-                        router.pathname === "/topographical"
-                          ? "text-primary-gray"
-                          : ""
-                      }`}>
-                      Topographical Survey
-                    </a>
-                  </Link>
+                  {/**drop down menu */}
+                  <Dropdown items={dropdownItems} />
                 </div>
                 <div>
                   <Link
