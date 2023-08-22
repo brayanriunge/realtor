@@ -22,6 +22,9 @@ module.exports = {
         "secondary-gray-300": "#379834",
         "secondary-gray-700": "#A38A00",
       },
+      backgroundImage: (theme) => ({
+        homeimage: "url('/survey.jpeg')",
+      }),
     },
   },
   plugins: [],

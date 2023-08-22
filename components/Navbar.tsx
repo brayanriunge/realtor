@@ -25,13 +25,17 @@ export default function Navbar() {
       <div
         className={`${flexStyles} w-full top-0 z-30 fixed py-2 bg-secondary-gray-200 shadow`}>
         <div className={`${flexStyles} mx-auto w-5/6`}>
-          <div className={`${flexStyles} w-full gap-4`}>
+          <div className={`${flexStyles} w-full gap-10`}>
             {/**left side */}
             {/**put logo here  */}
             <Image src={Logo} alt="logo" width={90} height={20} />
-            <span className="text-secondary-gray-700 text-2xl">
-              Goldmark Realtors
-            </span>
+            <p
+              className="font-bold text-2xl"
+              style={{ fontFamily: "Bungee Spice, cursive" }}>
+              GOLDMARK {""}
+              <span className="text-secondary-gray-700 text-2xl">Realtors</span>
+            </p>
+
             {/**right side */}
             {isAboveMediaScreens ? (
               <div className={`${flexStyles} w-full`}>
@@ -78,7 +82,7 @@ export default function Navbar() {
             {!isAboveMediaScreens && isMenuToggled && (
               <div className="fixed right-0 bottom-0 h-full w-[300px] z-40 bg-secondary-gray-300 drop-shadow-xl">
                 {/**close icon */}
-                <div className="p-12 flex justify-end ">
+                <div className="p-4 flex justify-end ">
                   <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
                     <XMarkIcon className="h-6 w-6 text-primary-gray-500 " />
                   </button>
@@ -89,7 +93,7 @@ export default function Navbar() {
                     <a
                       className={`${
                         router.pathname === "/" ? "text-primary-gray-500" : ""
-                      }`}>
+                      } hover:text-primary-gray-500`}>
                       Home
                     </a>
                   </Link>
@@ -99,7 +103,7 @@ export default function Navbar() {
                         router.pathname === "/subdivision"
                           ? "text-primary-gray"
                           : ""
-                      }`}>
+                      } hover:text-primary-gray-500`}>
                       Land Subdivision
                     </a>
                   </Link>
@@ -107,7 +111,7 @@ export default function Navbar() {
                     <a
                       className={`${
                         router.pathname === "/title" ? "text-primary-gray" : ""
-                      }`}>
+                      } hover:text-primary-gray-500`}>
                       Title Processing
                     </a>
                   </Link>
@@ -115,7 +119,7 @@ export default function Navbar() {
                     <a
                       className={`${
                         router.pathname === "/buying" ? "text-primary-gray" : ""
-                      }`}>
+                      } hover:text-primary-gray-500`}>
                       Land Buying and Selling
                     </a>
                   </Link>
@@ -125,7 +129,7 @@ export default function Navbar() {
                         router.pathname === "/demarcation"
                           ? "text-primary-gray"
                           : ""
-                      }`}>
+                      } hover:text-primary-gray-500`}>
                       Plot Demarcation
                     </a>
                   </Link>
@@ -135,7 +139,7 @@ export default function Navbar() {
                         router.pathname === "/topographical"
                           ? "text-primary-gray"
                           : ""
-                      }`}>
+                      } hover:text-primary-gray-500`}>
                       Topographical Survey
                     </a>
                   </Link>

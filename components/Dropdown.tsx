@@ -17,7 +17,7 @@ export default function Dropdown({ items }: Prop) {
       <button
         onClick={dropdownToggled}
         className="rounded-lg bg-secondary-gray-300 p-4 flex items-center justify-between font-bold text-lg tracking-wider duration-500 border-4 
-        w-52 border-transparent active:border-white active:text-black">
+        w-52 border-transparent active:border-white active:text-black shadow-xl">
         Services
         {!isOpen ? (
           <ChevronDownIcon className="h-8" />
