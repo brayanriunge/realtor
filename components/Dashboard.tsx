@@ -16,7 +16,7 @@ export default function Dashboard() {
                 GOLDMARK REALTORS
               </h1>
             </div>
-            <p className="text-4xl p-5 text-black font-bold ">
+            <p className="sm:text-3xl sm:p-5 text-lg p-4 sm:text-black font-bold ">
               We give our clients actionable insights and fresh perspectives
               when it comes to surveys.We also offer quality results as we
               always deal with facts and we are also privacy friendly.

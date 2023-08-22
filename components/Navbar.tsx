@@ -22,8 +22,7 @@ export default function Navbar() {
 
   return (
     <nav>
-      <div
-        className={`${flexStyles} w-full top-0 z-30 fixed py-2 bg-secondary-gray-200 shadow`}>
+      <div className={`${flexStyles} w-full top-0 z-30 fixed py-2 bg-secondary-gray-200 shadow`}>
         <div className={`${flexStyles} mx-auto w-5/6`}>
           <div className={`${flexStyles} w-full gap-10`}>
             {/**left side */}
