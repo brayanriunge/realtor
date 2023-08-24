@@ -28,12 +28,12 @@ export default function Navbar() {
             {/**left side */}
             {/**put logo here  */}
             <Image src={Logo} alt="logo" width={90} height={20} />
-            <p
+            <h2
               className="font-bold text-2xl"
               style={{ fontFamily: "Bungee Spice, cursive" }}>
               GOLDMARK {""}
               <span className="text-secondary-gray-700 text-2xl">Realtors</span>
-            </p>
+            </h2>
 
             {/**right side */}
             {isAboveMediaScreens ? (
