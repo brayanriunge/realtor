@@ -26,7 +26,7 @@ export default function Footer(){
                     <FaTwitter/> Twitter: Golmarkrealtors
                 </p>
                 <p className="flex gap-2  mt-4 items-baseline">
-                    <AiOutlineMail/> Email: realtorgoldmark@gmail.
+                    <AiOutlineMail/> Email: realtorgoldmark@gmail.com
                 </p>
                 <p className="flex gap-2  mt-4 items-baseline">
                     <AiFillPhone/> Phone: 0728746604
@@ -39,7 +39,7 @@ export default function Footer(){
                 </p>
                
                 <p className="flex gap-2  mt-4 items-baseline">
-                    <AiOutlineMail/> Email: riungebrian@gmail.
+                    <AiOutlineMail/> Email: riungebrian@gmail.com
                 </p>
                 <p className="flex gap-2  mt-4 items-baseline">
                     <AiFillPhone/> Phone: 0701842846
