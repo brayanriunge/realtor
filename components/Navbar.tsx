@@ -48,26 +48,13 @@ export default function Navbar() {
                       Home
                     </a>
                   </Link>
-                  <Link legacyBehavior href={"/subdivision"}>
-                    <a
-                      className={`${
-                        router.pathname === "/subdivision"
-                          ? "text-primary-gray"
-                          : ""
-                      }`}>
-                      About Us
-                    </a>
-                  </Link>
+                 <a href="/#contactus"
+                 className=" text-primary-gray-500"
+                 > Contact Us</a>
                   {/**drop down menu */}
                   <Dropdown items={dropdownItems} />
                 </div>
-                <div>
-                  <Link
-                    className="text-sm text-primary-gray-500"
-                    href={"/comments"}>
-                    Comments
-                  </Link>
-                </div>
+               {/** left side */}
               </div>
             ) : (
               <button
