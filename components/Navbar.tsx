@@ -48,9 +48,11 @@ export default function Navbar() {
                       Home
                     </a>
                   </Link>
-                 <a href="/#contactus"
+                 <Link legacyBehavior href="/#contactus">
+                 <a 
                  className=" text-primary-gray-500"
                  > Contact Us</a>
+                 </Link>
                   {/**drop down menu */}
                   <Dropdown items={dropdownItems} />
                 </div>
