@@ -19,7 +19,7 @@ export default function Dashboard() {
             <p className="sm:text-3xl sm:p-5 text-lg p-4 sm:text-black font-bold ">
               We give our clients actionable insights and fresh perspectives
               when it comes to surveys.We also offer quality results as we
-              always deal with facts and we are also privacy friendly.
+              always deal with facts and we maintain all our clients privacy.
             </p>
           </div>
         </div>

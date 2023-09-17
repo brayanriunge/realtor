@@ -45,10 +45,10 @@ export default function buying(){
                   <Image src={Farm} alt="cost" height={580} className="shadow rounded-lg"/>
                     <div>
                         <p className="my-5 text-2xl py-10 text-primary-gray-500 font-bold">
-                        As Goldmark Realtors, we buying and sell land at affordable prices.
+                        As Goldmark Realtors, we buy and sell land at affordable prices.
                          Our properties are valued added whereby we ensure that there is internal access roads,
                           water/boreholes and electricity installed or being installed making your property ready for immediate development.
-                         We do all the paper work of acquire your title deed of your property.
+                         We do all the paper work to acquire your title deed of your property.
                         </p>
                     </div>
                 </div>
