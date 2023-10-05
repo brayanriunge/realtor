@@ -5,7 +5,7 @@ export default function subdivison(){
     return(
         <Layout>
             <section className="w-5/6 mx-auto  mt-5 min-h-full py-20">
-            <div className="flex items-center gap-8 justify-center">
+               <div className="flex items-center gap-8 justify-center">
                     <h1 className="text-3xl mt-5  mb-10 "  style={{ fontFamily: "Bungee Spice, cursive" }}>Land Subdivision</h1>
                 </div>
                 <div className="md:flex gap-8 justify-between mt-5 items-center">
