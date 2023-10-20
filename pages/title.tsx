@@ -12,8 +12,13 @@ export default function title(){
                 <div className="md:flex gap-8 item-center justify-between ">
                 <Image src={Title} alt="cost" height={580} className="shadow rounded-lg" />
                 <div >
-                    <p className="my-5 text-2xl py-10 text-primary-gray-500 font-bold">
-                    As Goldmark Realtors, we offer services in title processing to our clients. This process may take some time and may require our clients input as it include several procedures which we will guide you all through. We also help our clients in land transfers, obtaining valuation for stamp duty and land registration.
+                    <p className="my-5 text-2xl text-justify py-10 text-primary-gray-500 font-bold">
+                    Title processing is a critical facet, involving the legal transfer 
+                    of property ownership. This process entails the verification and authentication of 
+                    land titles and ownership documents, along with thorough searches to ensure no encumbrances 
+                    or disputes are associated with the property. I am responsible for preparing and submitting 
+                    the necessary documentation for seamless title transfer, such as deeds and transfer forms, 
+                    and facilitating the registration of the new owner's details with the relevant land registry.
                     </p>
                    
                 </div>

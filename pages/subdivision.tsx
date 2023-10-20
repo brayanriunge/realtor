@@ -11,12 +11,13 @@ export default function subdivison(){
                 <div className="md:flex gap-8 justify-between mt-5 items-center">
                     <Image src={Subdivision} alt="cost" height={540} className="shadow rounded-lg"/>
                     <div>
-                        <p className="my-5 text-2xl py-10 text-primary-gray-500 font-bold">
-                        We offer services of land subdivision ,where we have participated in different parts of the country.
-                         As Goldmark Realtors, we help our clients in coming up with a plan for subdividing your land and advise you on the
-                          possible outcomes. As planners, we will advise you on whether subdividing your land will require some added utilities 
-                          such as road for easier access,
-                         a common facility for the new residents.
+                        <p className="my-5 text-2xl py-10 text-primary-gray-500 text-justify font-bold">
+                        land subdivision, involves the meticulous process of dividing a larger parcel 
+                        of land into smaller, individual lots. This necessitates conducting precise surveys 
+                        to determine the boundaries of each subdivided lot and preparing detailed subdivision 
+                        plans and legal documents outlining the new configurations. Additionally, compliance 
+                        with local zoning regulations and subdivision ordinances is essential, requiring coordination 
+                        with local authorities for plan approval.
                         </p>
                     </div>
 

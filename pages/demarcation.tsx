@@ -12,8 +12,13 @@ export default function demarcation(){
                 <div className="md:flex gap-8 items-center justify-between">
                     <Image src={Demarc} alt="cost" height={560}  className="shadow rounded-lg"/>
                     <div>
-                        <p className="text-2xl font-bold text-primary-gray-500 py-10 my-5">
-                        When performing land demarcation, we consider the roads, commercial  space and extra space for public use. We ensure allotment of these spaces is as per the government norms.Based on the approvals from the concerned authorities and clients,layout designed is marked on the respective site.
+                        <p className="text-2xl text-justify font-bold text-primary-gray-500 py-10 my-5">
+                        Plot demarcation is a task that requires one to physically mark out the boundaries 
+                        of a specific piece of land. Utilizing specialized surveying equipment, I accurately 
+                        establish the plot's boundaries and install physical markers like pegs, posts, or fences 
+                        to provide a clear definition of the property's limits. Detailed field notes and sketches 
+                        are kept to document the demarcation process, ensuring clients have a thorough understanding 
+                        of their property boundaries.
                         </p>
                     </div>
 
