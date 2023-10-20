@@ -18,7 +18,7 @@ export default function title(){
                     land titles and ownership documents, along with thorough searches to ensure no encumbrances 
                     or disputes are associated with the property. I am responsible for preparing and submitting 
                     the necessary documentation for seamless title transfer, such as deeds and transfer forms, 
-                    and facilitating the registration of the new owner's details with the relevant land registry.
+                    and facilitating the registration of the new owner&aposs details with the relevant land registry.
                     </p>
                    
                 </div>
