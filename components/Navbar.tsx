@@ -10,7 +10,7 @@ import Dropdown from "./Dropdown";
 export default function Navbar() {
   const router = useRouter();
   const flexStyles = "flex items-center justify-between ";
-  const isAboveMediaScreens = useMediaQuery("(min-width: 1060px)");
+  const isAboveMediaScreens = useMediaQuery("(min-width: 720px)");
   const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false);
   const dropdownItems = [
     { label: "Land Subdivision", link: "/subdivision" },
@@ -22,7 +22,9 @@ export default function Navbar() {
 
   return (
     <nav>
-      <div className={`${flexStyles} w-full top-0 z-30 fixed py-2 bg-secondary-gray-200 shadow`}>
+      <div
+        className={`${flexStyles} w-full top-0 z-30 fixed py-2 bg-secondary-gray-200 shadow`}
+      >
         <div className={`${flexStyles} mx-auto w-5/6`}>
           <div className={`${flexStyles} w-full gap-10`}>
             {/**left side */}
@@ -30,7 +32,8 @@ export default function Navbar() {
             <Image src={Logo} alt="logo" width={90} height={20} />
             <h2
               className="font-bold text-2xl"
-              style={{ fontFamily: "Bungee Spice, cursive" }}>
+              style={{ fontFamily: "Bungee Spice, cursive" }}
+            >
               GOLDMARK {""}
               <span className="text-secondary-gray-700 text-2xl">Realtors</span>
             </h2>
@@ -39,29 +42,30 @@ export default function Navbar() {
             {isAboveMediaScreens ? (
               <div className={`${flexStyles} w-full`}>
                 <div
-                  className={`${flexStyles} text-sm text-primary-gray-500  gap-8`}>
+                  className={`${flexStyles} text-sm text-primary-gray-500  gap-8`}
+                >
                   <Link legacyBehavior href={"/"}>
                     <a
                       className={`${
                         router.pathname === "/" ? "text-primary-gray" : ""
-                      }`}>
+                      }`}
+                    >
                       Home
                     </a>
                   </Link>
-                 <Link legacyBehavior href="/#contactus">
-                 <a 
-                 className=" text-primary-gray-500"
-                 > Contact Us</a>
-                 </Link>
+                  <Link legacyBehavior href="/#contactus">
+                    <a className=" text-primary-gray-500"> Contact Us</a>
+                  </Link>
                   {/**drop down menu */}
                   <Dropdown items={dropdownItems} />
                 </div>
-               {/** left side */}
+                {/** left side */}
               </div>
             ) : (
               <button
                 className="rounded-full p-2 bg-secondary-gray-300"
-                onClick={() => setIsMenuToggled(!isMenuToggled)}>
+                onClick={() => setIsMenuToggled(!isMenuToggled)}
+              >
                 <Bars3Icon className="h-6 w-6 " />
               </button>
             )}
@@ -81,7 +85,8 @@ export default function Navbar() {
                     <a
                       className={`${
                         router.pathname === "/" ? "text-primary-gray-500" : ""
-                      } hover:text-primary-gray-500`}>
+                      } hover:text-primary-gray-500`}
+                    >
                       Home
                     </a>
                   </Link>
@@ -91,7 +96,8 @@ export default function Navbar() {
                         router.pathname === "/subdivision"
                           ? "text-primary-gray"
                           : ""
-                      } hover:text-primary-gray-500`}>
+                      } hover:text-primary-gray-500`}
+                    >
                       Land Subdivision
                     </a>
                   </Link>
@@ -99,7 +105,8 @@ export default function Navbar() {
                     <a
                       className={`${
                         router.pathname === "/title" ? "text-primary-gray" : ""
-                      } hover:text-primary-gray-500`}>
+                      } hover:text-primary-gray-500`}
+                    >
                       Title Processing
                     </a>
                   </Link>
@@ -107,7 +114,8 @@ export default function Navbar() {
                     <a
                       className={`${
                         router.pathname === "/buying" ? "text-primary-gray" : ""
-                      } hover:text-primary-gray-500`}>
+                      } hover:text-primary-gray-500`}
+                    >
                       Land Buying and Selling
                     </a>
                   </Link>
@@ -117,7 +125,8 @@ export default function Navbar() {
                         router.pathname === "/demarcation"
                           ? "text-primary-gray"
                           : ""
-                      } hover:text-primary-gray-500`}>
+                      } hover:text-primary-gray-500`}
+                    >
                       Plot Demarcation
                     </a>
                   </Link>
@@ -127,7 +136,8 @@ export default function Navbar() {
                         router.pathname === "/topographical"
                           ? "text-primary-gray"
                           : ""
-                      } hover:text-primary-gray-500`}>
+                      } hover:text-primary-gray-500`}
+                    >
                       Topographical Survey
                     </a>
                   </Link>
