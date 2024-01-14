@@ -13,7 +13,7 @@ export default function Dashboard() {
             <div className="flex justify-center">
               <h1
                 style={{ fontFamily: "Bungee Spice, cursive" }}
-                className=" font-bold   text-4xl"
+                className=" font-bold   text-2xl"
               >
                 GOLDMARK REALTORS
               </h1>
