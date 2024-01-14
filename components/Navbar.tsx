@@ -26,7 +26,7 @@ export default function Navbar() {
         className={`${flexStyles} w-full top-0 z-30 fixed py-2 bg-secondary-gray-200 shadow`}
       >
         <div className={`${flexStyles} mx-auto w-5/6`}>
-          <div className={`${flexStyles} w-full gap-10`}>
+          <div className={`${flexStyles} w-full gap-4`}>
             {/**left side */}
             {/**put logo here  */}
             <Image src={Logo} alt="logo" width={90} height={20} />
